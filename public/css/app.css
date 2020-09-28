@@ -14,14 +14,14 @@ body {
   margin: auto;
 }
 
-ul {
+.container ul {
   background-color: #09a6ff;
   list-style: none;
   border-radius: 20px;
   padding: 20px;
 }
 
-ul h1 {
+.container ul h1 {
   color: white;
 }
 
