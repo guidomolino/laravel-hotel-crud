@@ -1,7 +1,7 @@
 @extends('layouts.main-layout')
 @section('stanze')
   <h1>Nuova Stanza</h1>
-  <form class="" action="index.html" method="post">
+  <form class="" action="{{route('store-stanza')}}" method="post">
     @csrf
     @method('POST')
 
